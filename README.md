@@ -33,17 +33,17 @@
 
 | Trường | Phân tích của tôi |
 | --- | --- |
-| High-risk moment | [Tình huống cụ thể có rủi ro] |
-| Stakeholder bị ảnh hưởng | [Người dùng và các bên liên quan] |
-| Failure mode | [Kiểu lỗi AI] |
-| Layer bắt đầu lỗi | [UX / Grounding / Safety / Model; giải thích hoặc ghi chưa đủ bằng chứng] |
-| Harm xảy ra là gì? | [Ai bị ảnh hưởng + hậu quả; ghi rõ đã xảy ra hay mới là nguy cơ] |
-| Harm lens | [Loại tác hại] |
-| Severity | [Low / Medium / High / Critical] |
-| Scale | [Quy mô tác động và căn cứ] |
-| Probability | [Khả năng xảy ra và căn cứ] |
-| Frequency | [Tần suất và căn cứ] |
-| Vì sao? | [Lý do cho các đánh giá; nguồn hoặc giới hạn bằng chứng] |
+| High-risk moment | Ứng viên gia sư nộp hồ sơ và phần mềm tự động loại ngay, trước khi có người xem, dựa trên tuổi và giới tính. |
+| Stakeholder bị ảnh hưởng | Ứng viên nữ từ 55 tuổi và nam từ 60 tuổi ở Mỹ; iTutorGroup (rủi ro pháp lý); EEOC. |
+| Failure mode | Bias / fairness: kết quả bất lợi cho nhóm lớn tuổi. |
+| Layer bắt đầu lỗi | Chưa đủ bằng chứng. Giả thuyết của tôi: Grounding (tiêu chí lọc cài sẵn dùng tuổi và giới) và thiếu Safety (không có người kiểm tra trước khi loại). |
+| Harm xảy ra là gì? | Ứng viên lớn tuổi bị mất cơ hội được xét việc khi phần mềm tự động loại hồ sơ vì tuổi. Theo cáo buộc của EEOC thì đã xảy ra; công ty phủ nhận và vụ việc kết thúc bằng hòa giải. |
+| Harm lens | Opportunity loss (mất cơ hội). |
+| Severity | High |
+| Scale | Medium: hơn 200 ứng viên đủ điều kiện bị loại (EEOC), trong một công ty. |
+| Probability | High trong cấu hình bị cáo buộc: theo cáo buộc, ứng viên thuộc nhóm tuổi này đều bị loại tự động. Đây là đánh giá của tôi dựa trên cáo buộc. |
+| Frequency | Chưa đủ dữ liệu để đánh giá ngoài giai đoạn tháng 3–4/2020 nêu trong thỏa thuận. |
+| Vì sao? | Severity cao vì ứng viên bị từ chối việc làm theo tuổi và giới. Scale ở mức vừa vì chỉ một công ty và hơn 200 người. Toàn bộ dựa trên cáo buộc của EEOC và hòa giải, không phải phán quyết của tòa. |
 
 ### 3. Case study 2 — Mobley kiện Workday: AI sàng lọc ứng viên bị cáo buộc thiên lệch tuổi (Mỹ, 2023 đến nay)
 
@@ -64,17 +64,17 @@
 
 | Trường | Phân tích của tôi |
 | --- | --- |
-| High-risk moment | [Điền] |
-| Stakeholder bị ảnh hưởng | [Điền] |
-| Failure mode | [Điền] |
-| Layer bắt đầu lỗi | [Điền] |
-| Harm xảy ra là gì? | [Điền; phân biệt hậu quả đã xảy ra với nguy cơ] |
-| Harm lens | [Điền] |
-| Severity | [Điền] |
-| Scale | [Điền] |
-| Probability | [Điền] |
-| Frequency | [Điền] |
-| Vì sao? | [Điền căn cứ và giới hạn bằng chứng] |
+| High-risk moment | Ngay sau khi nộp đơn, công cụ AI chấm điểm, xếp hạng hoặc sàng lọc hồ sơ trước khi nhà tuyển dụng xem. |
+| Stakeholder bị ảnh hưởng | Ứng viên từ 40 tuổi trở lên (Mobley và nhóm kiện); nhà tuyển dụng dùng Workday; Workday (rủi ro pháp lý). |
+| Failure mode | Bias / fairness (theo cáo buộc). Có thể kèm Over-reliance: tòa chấp nhận khả năng Workday là "đại diện" của nhà tuyển dụng vì khách hàng có thể đã giao việc loại và đẩy ứng viên cho công cụ (Akin Gump). |
+| Layer bắt đầu lỗi | Chưa đủ bằng chứng vì cách công cụ vận hành chưa được công bố. Giả thuyết của tôi: Model (dữ liệu huấn luyện hoặc tiêu chí chấm) và thiếu Safety (không có kiểm toán thiên lệch). |
+| Harm xảy ra là gì? | Ứng viên từ 40 tuổi bị mất cơ hội việc làm khi công cụ AI bị cáo buộc chấm thấp hoặc loại hồ sơ. Hiện là cáo buộc, chưa có phán quyết, nên tôi coi là nguy cơ chưa được xác nhận. |
+| Harm lens | Opportunity loss (mất cơ hội). |
+| Severity | High |
+| Scale | High (đánh giá của tôi): tòa công nhận sơ bộ nhóm kiện toàn nước Mỹ gồm ứng viên từ 40 tuổi bị từ chối qua Workday từ 24/09/2020. Chưa có số người bị ảnh hưởng đã được xác minh. |
+| Probability | Chưa đủ dữ liệu để đánh giá: chưa có kết luận về việc công cụ có thiên lệch hay không. |
+| Frequency | Chưa đủ dữ liệu để đánh giá. Mobley nêu hơn 100 đơn bị từ chối, nhưng đó là lời nguyên đơn về một người. |
+| Vì sao? | Severity cao vì ảnh hưởng thu nhập và cơ hội nghề nghiệp. Scale đánh giá theo phạm vi nhóm kiện do tòa xác định, không phải số người đã chứng minh bị hại. Probability và Frequency để trống vì nguồn chỉ xác nhận tiến trình tố tụng, không có số đo thiên lệch. |
 
 ### 4. Case study 3 — Nghiên cứu University of Washington: LLM xếp hạng CV thiên lệch theo tên (2024)
  
@@ -92,14 +92,14 @@
  
 | Trường | Phân tích của tôi |
 | --- | --- |
-| High-risk moment | [Điền] |
-| Stakeholder bị ảnh hưởng | [Điền] |
-| Failure mode | [Điền] |
-| Layer bắt đầu lỗi | [Điền] |
-| Harm xảy ra là gì? | [Điền] |
-| Harm lens | [Điền] |
-| Severity | [Điền] |
-| Scale | [Điền] |
-| Probability | [Điền] |
-| Frequency | [Điền] |
-| Vì sao? | [Điền] |
+| High-risk moment | Nhà tuyển dụng dùng LLM xếp hạng CV so với mô tả công việc để chọn ai được đi tiếp vòng sau. |
+| Stakeholder bị ảnh hưởng | Ứng viên da đen và ứng viên nữ (nặng nhất với nam da đen); nhà tuyển dụng dùng LLM để sàng lọc. |
+| Failure mode | Bias / fairness: xếp hạng khác nhau chỉ vì tên ứng viên. |
+| Layer bắt đầu lỗi | Model: nhóm nghiên cứu chỉ đổi tên mà giữ nguyên nội dung CV nhưng thứ hạng vẫn đổi, nên nguồn lỗi nằm ở hành vi của mô hình. Chưa kiểm tra các lớp khác của hệ thống thật. |
+| Harm xảy ra là gì? | Ứng viên da đen và nữ có nguy cơ bị xếp thấp hoặc loại khi LLM xếp hạng CV thiên lệch theo tên. Mới là nguy cơ từ thí nghiệm, chưa có ứng viên thật bị loại. |
+| Harm lens | Opportunity loss (mất cơ hội). |
+| Severity | High nếu được dùng thật: ảnh hưởng trực tiếp đến cơ hội việc làm. |
+| Scale | Chưa đủ dữ liệu để đánh giá ngoài thực tế. Trong thí nghiệm: ba mô hình, hơn 3 triệu lượt so sánh. |
+| Probability | Trong thí nghiệm: tên gắn với người da trắng được ưu tiên 85% so với 9% (da đen). Ngoài thực tế chưa đủ dữ liệu, vì hệ thống thương mại thường độc quyền. |
+| Frequency | Trong thí nghiệm, xu hướng lặp lại trên hơn 3 triệu lượt so sánh. Tần suất ngoài thực tế chưa đủ dữ liệu để đánh giá. |
+| Vì sao? | Số liệu lấy từ thí nghiệm có kiểm soát nên chứng minh được mô hình có thiên lệch nhưng chưa chứng minh có ứng viên thật bị hại. Severity đánh giá theo hậu quả nếu triển khai thật. |
